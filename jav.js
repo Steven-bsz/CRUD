@@ -44,7 +44,8 @@ function printCars () {
     const carsTable = document.getElementById ('cars-table');
     let html = " ";
     cars.forEach ((cars) => {
-       html += `<tr><td>${cars.brand}</td>
+       html += `<tr><td>${cars.id}</td>
+                    <td>${cars.brand}</td>
                     <td>${cars.model}</td>
                     <td>${cars.colour}</td>
                     <td>${cars.age}</td>
